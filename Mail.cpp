@@ -62,9 +62,9 @@ void sendEmail(const std::string& from, const std::string& password, const std::
     }
 }
 int main() {
-    std::string from = "huuphuocnguyen0980@gmail.com";
-    std::string password = "moymmnqrpwhfkkxl";
-    std::string to = "afktodeath@gmail.com";
+    std::string from = "";// your mail
+    std::string password = "";// add your app password 
+    std::string to = "";// mail received 
     std::string subject = "Test Email";
     std::string body = "This is a test email.";
 
